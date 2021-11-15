@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:id="@+id/nav_group_username"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_username"
+            android:icon="@drawable/ic_baseline_mode_edit_outline_24"
+            android:title="User name" />
+    </group>
+    <group android:id="@+id/nav_group_email"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_email"
+            android:icon="@drawable/ic_baseline_mode_edit_outline_24"
+            android:title="Email" />
+    </group>
+    <group android:id="@+id/nav_group_weight"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_weight"
+            android:icon="@drawable/ic_baseline_mode_edit_outline_24"
+            android:title="Current weight" />
+    </group>
+    <group android:id="@+id/nav_group_bmi"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_bmi"
+            android:icon="@drawable/ic_baseline_mode_edit_outline_24"
+            android:title="My Bmi" />
+    </group>
+</menu>

@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.setting.SettingFragment"
+    android:background="@color/black"
+    android:orientation="vertical">
+    <TextView
+        android:layout_marginTop="70dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Setting"
+        android:layout_gravity="center"
+        android:textSize="30sp"
+        android:fontFamily="@font/poppins_semibold"
+        android:textColor="@color/yelloColor"
+
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="First name"
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:textColor="@color/yelloColor"
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginHorizontal="10dp"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:text="example@gmail.com"
+            android:layout_weight="3"
+            android:id="@+id/etFirstName"
+            android:enabled="false"
+            android:drawableTint="@color/white_light"
+            android:drawableRight="@drawable/ic_baseline_mode_edit_outline_24"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/white_light"
+            android:backgroundTint="@color/dark_yellow"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:text="Update"
+            android:layout_weight="1"
+            android:layout_toRightOf="@id/etEmail"
+            android:layout_height="wrap_content">
+        </com.google.android.material.button.MaterialButton>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Last name"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:textColor="@color/yelloColor"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginHorizontal="10dp"
+        android:layout_height="wrap_content">
+
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:text="example@gmail.com"
+            android:layout_weight="3"
+            android:id="@+id/etLastName"
+            android:enabled="false"
+            android:drawableTint="@color/white_light"
+            android:drawableRight="@drawable/ic_baseline_mode_edit_outline_24"
+            android:layout_marginRight="10dp"
+            android:textColor="@color/white_light"
+            android:backgroundTint="@color/dark_yellow"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:text="Update"
+            android:layout_weight="1"
+            android:layout_toRightOf="@id/etEmail"
+            android:layout_height="wrap_content">
+        </com.google.android.material.button.MaterialButton>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="20dp"
+        android:textSize="18sp"
+        android:textColor="@color/yelloColor"
+
+        />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:weightSum="3"
+        android:layout_marginHorizontal="10dp"
+        android:layout_height="wrap_content">
+
+
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:text="example@gmail.com"
+            android:layout_weight="3"
+            android:id="@+id/etEmail"
+            android:drawableTint="@color/white_light"
+            android:drawableRight="@drawable/ic_baseline_mode_edit_outline_24"
+            android:layout_marginRight="10dp"
+            android:enabled="false"
+            android:textColor="@color/white_light"
+            android:backgroundTint="@color/dark_yellow"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            />
+
+        <com.google.android.material.button.MaterialButton
+            android:layout_width="wrap_content"
+            android:text="Update"
+            android:layout_weight="1"
+            android:layout_toRightOf="@id/etEmail"
+            android:layout_height="wrap_content">
+        </com.google.android.material.button.MaterialButton>
+
+    </LinearLayout>
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btnLogout"
+        android:padding="15dp"
+        app:cornerRadius="12dp"
+        android:text="Logout"
+       app:icon="@drawable/ic_logout"
+        android:layout_marginTop="20dp"
+        app:iconGravity="textEnd"
+        android:backgroundTint="@color/orange_color"
+        android:layout_marginHorizontal="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

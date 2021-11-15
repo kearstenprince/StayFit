@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">StayFit</string>
+    <string name="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam nunc etiam velit hendrerit lectus dignissim luctus accumsan, aenean. In tincidunt tempor dignissim elementum amet non.</string>
+    <string name="sign_up_to_create_your_account">Sign up to create your account</string>
+    <string name="account">Already have an account? <font color="#FBCD4F"> Login here.</font></string>
+    <string name="Dont_have_account">Do not have an account? <font color="#FBCD4F"> Signup here.</font></string>
+
+    <string-array name="ageMenu">
+        <item>10</item>
+        <item>15</item>
+        <item>20</item>
+        <item>25</item>
+        <item>30</item>
+        <item>35</item>
+        <item>40</item>
+        <item>45</item>
+        <item>50</item>
+    </string-array>
+    <string-array name="heightMenu">
+        <item>4</item>
+        <item>4.2</item>
+        <item>4.5</item>
+        <item>4.7</item>
+        <item>5</item>
+        <item>5.2</item>
+        <item>5.5</item>
+        <item>5.7</item>
+        <item>6</item>
+        <item>6.2</item>
+        <item>6.5</item>
+    </string-array>
+    <string-array name="weekMenu">
+        <item>Mon</item>
+        <item>Tues</item>
+        <item>Wednes</item>
+        <item>Thurs</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </string-array>
+    <string-array name="hourMenu">
+        <item>1 hour</item>
+        <item>2 hour</item>
+        <item>3 hour</item>
+        <item>4 hour</item>
+        <item>5 hour</item>
+    </string-array>
+    <string name="title_activity_bottom_navigation">MainActivity</string>
+    <string name="title_home">Home</string>
+    <string name="title_bmi">Bmi</string>
+    <string name="title_setting">setting</string>
+    <string name="bmi">Bmi</string>
+    <string name="home">Home</string>
+    <string name="setting">Setting</string>
+    <string name="you_need_20_pounds_to_reach_your_goal">You need 20 pounds to reach your goal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="Mountain_climber">Mountain climber</string>
+    <string name="Reverse_crunch">Reverse crunch</string>
+    <string name="Abs_roll_out">Abs roll-out</string>
+    <string name="Hanging_knee_raise">Hanging knee raise</string>
+    <string name="Plank">Plank</string>
+    <string name="knee_tucks">Knee tucks</string>
+    <string name="dead_bug">Dead bug</string>
+    <string name="leg_raise">Leg raise</string>
+    <string name="Russian_twists">Russian twists </string>
+    <string name="Side_plank">Side plank </string>
+    <string name="bird_dod">Bird dog </string>
+    <string name="crunches">Crunches</string>
+
+
+</resources>

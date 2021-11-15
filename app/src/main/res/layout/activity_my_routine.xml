@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@color/black"
+    tools:context=".myroutine.MyRoutineActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:src="@drawable/bb"
+            android:scaleType="centerCrop"
+            android:scaleX="1.1"
+            />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_centerVertical="true"
+            android:weightSum="2"
+            android:layout_height="wrap_content">
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:orientation="vertical"
+                android:gravity="center"
+                android:layout_marginTop="50dp"
+                android:layout_height="100dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="DAY"
+                    android:background="@color/black"
+                    android:id="@+id/tvtime"
+                    android:textStyle="bold"
+                    android:textSize="20sp"
+                    android:textColor="@color/yelloColor"
+
+                    />
+                <com.google.android.material.textfield.TextInputLayout
+
+                    style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+                    android:layout_width="match_parent"
+                    app:boxStrokeWidth="0dp"
+                    app:boxCornerRadiusBottomStart="100dp"
+                    app:boxCornerRadiusTopStart="100dp"
+                    app:boxCornerRadiusTopEnd="100dp"
+                    app:boxCornerRadiusBottomEnd="100dp"
+                    app:boxStrokeWidthFocused="0dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:foregroundGravity="center_vertical"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:hint="Day"
+
+                    >
+
+                    <AutoCompleteTextView
+                        android:id="@+id/menuDay"
+                        android:layout_width="match_parent"
+                        android:backgroundTint="@color/greyColor"
+                        android:layout_height="wrap_content"
+                        android:inputType="none"
+                        android:textColor="@color/white"
+                        />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+
+
+            <androidx.cardview.widget.CardView
+                android:background="@color/white"
+                android:layout_width="60dp"
+                android:layout_marginTop="90dp"
+                android:id="@+id/btnStart"
+                app:cardCornerRadius="100dp"
+                android:layout_height="60dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="START"
+                    android:layout_gravity="center"
+                    android:textStyle="bold"
+                    />
+            </androidx.cardview.widget.CardView>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_weight="1"
+                android:layout_marginTop="50dp"
+                android:gravity="center"
+
+                android:orientation="vertical"
+                android:layout_height="100dp">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TIME"
+                    android:background="@color/black"
+                    android:textStyle="bold"
+                    android:layout_alignParentRight="true"
+                    android:textSize="20sp"
+                    android:textColor="@color/yelloColor"
+                    />
+                <com.google.android.material.textfield.TextInputLayout
+
+                    style="@style/Widget.MaterialComponents.TextInputLayout.FilledBox.ExposedDropdownMenu"
+                    android:layout_width="match_parent"
+                    app:boxStrokeWidth="0dp"
+                    app:boxCornerRadiusBottomStart="100dp"
+                    app:boxCornerRadiusTopStart="100dp"
+                    app:boxCornerRadiusTopEnd="100dp"
+                    app:boxCornerRadiusBottomEnd="100dp"
+                    app:boxStrokeWidthFocused="0dp"
+                    android:layout_marginHorizontal="10dp"
+                    android:foregroundGravity="center_vertical"
+                    android:layout_gravity="center_vertical"
+                    android:gravity="center_vertical"
+                    android:layout_height="wrap_content"
+                    android:hint="Hour">
+
+                    <AutoCompleteTextView
+                        android:id="@+id/menuHour"
+                        android:layout_width="match_parent"
+                        android:backgroundTint="@color/greyColor"
+                        android:layout_height="wrap_content"
+                        android:inputType="none"
+                        android:textColor="@color/white"
+                        />
+
+                </com.google.android.material.textfield.TextInputLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+<androidx.recyclerview.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:id="@+id/recyclerView"
+    android:layout_marginHorizontal="15dp"
+    android:layout_height="match_parent">
+
+
+</androidx.recyclerview.widget.RecyclerView>
+
+
+
+</LinearLayout>
