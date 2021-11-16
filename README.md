@@ -149,3 +149,18 @@ Here's a walkthrough of implemented user stories:
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
+The following **required** functionality is completed:
+
+- [ X ] Add additinal screens for workout buttons.
+- [ X ] User can start a workout and mark it as completed for each set
+- [ X ] Completed workoutlist
+
+
+## Updated Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='new.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
