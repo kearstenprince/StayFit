@@ -164,3 +164,17 @@ Here's a walkthrough of implemented user stories:
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
+The following **required** functionality is completed:
+
+- [ X ] Extend the height dropdown list
+- [ X ] Extend the age dropdown list
+- [ X ] Fix display of current weight and goal weight
+
+
+## Updated Video Walkthrough
+
+Here's a walkthrough of implemented user stories:
+
+<img src='age.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
