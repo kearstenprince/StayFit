@@ -178,3 +178,11 @@ Here's a walkthrough of implemented user stories:
 <img src='age.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
+
+## Final Walkthrough
+
+Here's the final walkthrough of the app.
+
+<img src='narrated.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).
